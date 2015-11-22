@@ -86,7 +86,7 @@ This Docker image sets up a container with
 - Get a better link for the VSCode.zip package
 
 ## Motivation
-I became really excited after seeing the visual debugger for Go extension for Visual Studio Code. However, after thinking about my exisiting Go setups on multiple machines, I imagined the pain of setting it all up multiple times manually.
+I became really excited about Visual Studio Code after seeing the [visual debugger in the Go extension](https://github.com/Microsoft/vscode-go#debugger) for it. However, after thinking about my exisiting Go setups on multiple machines, I imagined the pain of setting it all up multiple times manually.
 
 ## Kudos
 This would not have been possible without those existing sources on the Internet as this is my first Dockerfile from scratch.
