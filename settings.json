@@ -3,5 +3,5 @@
     "go.lintOnSave": true,
     "go.vetOnSave": true,
     "go.formatTool": "goreturns",
-    "go.gopath": "/root/goproject"
+    "go.gopath": "/home/gopher/project"
 }
