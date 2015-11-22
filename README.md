@@ -85,12 +85,20 @@ For screenshots, checkout the [Screenshots](#screenshots) section below
 
 ## Screenshots
 ### Visual Studio Code
+#### Starting up visual studio code in the container
+
 ![Starting Up Visual Studio Code](doc_resources/gdec-starting-vscode.gif)
+Follow the running instructions for your OS.
+
+#### Editing Go file in Visual Studio Code
 
 ![Editing Go File In Visual Studio Code](doc_resources/gdec-editing-vscode.gif)
+Creating a hello world app
+
+#### Debugging Go file in Visual Studio Code
 
 ![Debugging in Visual Studio Code](doc_resources/gdec-debugging-vscode.gif)
-- Note: The screen capture tool is unable to show the breakpoints being set. But they are
+- Note: The screen capture tool is unable to show the breakpoints being set, but they are. You click to the left of the line numbers.
 
 ## Usage
 ### Using Visual Studio Code
