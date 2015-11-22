@@ -79,11 +79,17 @@ This Docker image sets up a container with
 ## Windows Instructions
 - TODO / Someone else contribute
 
+## Usage
+### Using Visual Studio Code
+#### Debugger
+When you run `code .`, it will start up the IDE at $GOPATH. You will begin to put your source code in $GOPATH/src. The picture above assumes you have package called `test` with a file called `main.go` in the `src` folder (i.e. $GOPATH/src/test/main.go). Press the green play button and a dropdown will appear, select `Go`, it will show `launch.json`. You will want to set the `program` field to `src/test`.
+
 ## TODO
 - Install other Go IDEs / editors
 - Install other Go Tools
 - Get instructions for other operating systems
 - Get a better link for the VSCode.zip package
+- Talk about exposing ports to demo debugging web services in the container.
 
 ## Motivation
 I became really excited about Visual Studio Code after seeing the [visual debugger in the Go extension](https://github.com/Microsoft/vscode-go#debugger) for it. However, after thinking about my exisiting Go setups on multiple machines, I imagined the pain of setting it all up multiple times manually.
