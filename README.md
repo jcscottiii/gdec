@@ -5,6 +5,17 @@ This Docker image sets up a container with
  - Go v1.5
  - [Visual Studio Code](https://code.visualstudio.com/) with a Golang [Extension] (https://marketplace.visualstudio.com/items/lukehoban.Go) that allows autocomplete, visual debugging and more.
 
+## Table of Contens
+- [Requirements](#requirements)
+  - [Installing Requirements](#installing-requirements)
+- [Mac OS X Instructions](#mac-os-x-instructions)
+  - [Additional Requirements](#additional-requirements-for-mac-os-x)
+  - [Running](#running-on-mac-os-x)
+  - [Debugging](#debugging-on-mac-os-x)
+- [Linux Instructions](#linux-instructions)
+- [Windows Instructions](#windows-instructions)
+- [TODO](#todo)
+
 ## Requirements
 - [Docker] (https://www.docker.com/)
 
@@ -15,7 +26,7 @@ This Docker image sets up a container with
    - Windwos [Instructions](http://docs.docker.com/windows/step_one/)
 
 ## Mac OS X Instructions
-### Aditional Requirements
+### Additional Requirements For Mac OS X
 - Socat
 
   ```
@@ -28,7 +39,7 @@ This Docker image sets up a container with
   brew cask install xquartz
   ```
 
-### Running
+### Running on Mac OS X
 - Open two terminals
 - In terminal 1:
   - Run
@@ -49,7 +60,7 @@ This Docker image sets up a container with
     code . # Starts the Visual Studio Code IDE
     ```
 
-### Debugging
+### Debugging on Mac OS X
 
 #### When running socat, port 6000 is already taken
 - Run
