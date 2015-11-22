@@ -73,7 +73,6 @@ This Docker image sets up a container with
 #### When trying to open Visual Studio Code it fails and in terminal 1, socat is outputting errors (e.g. Invalid arguments)
 - Sometimes on your first install of socat, you have restart your Mac. That fixes that usually.
 
-
 ## Linux Instructions
 - TODO / Someone else contribute
 
@@ -84,4 +83,14 @@ This Docker image sets up a container with
 - Install other Go IDEs / editors
 - Install other Go Tools
 - Get instructions for other operating systems
+- Get a better link for the VSCode.zip package
 
+## Motivation
+I became really excited after seeing the visual debugger for Go extension for Visual Studio Code. However, after thinking about my exisiting Go setups on multiple machines, I imagined the pain of setting it all up multiple times manually.
+
+## Kudos
+This would not have been possible without those existing sources on the Internet as this is my first Dockerfile from scratch.
+- [Haven Nightly Art](https://haven.nightlyart.com/trying-gui-apps-with-docker/) for tips on running GUI apps on Mac OS X
+- This very long [issue](https://github.com/docker/docker/issues/8710) in docker for Mac OS X GUI help
+- @jfrazelle's Visual Studio Code [Dockerfile](https://github.com/jfrazelle/dockerfiles/tree/master/visualstudio) for tips on setting VSCode up.
+- Project Atomic's [post](http://www.projectatomic.io/docs/docker-image-author-guidance/) on helping set up non-root user.
