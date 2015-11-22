@@ -5,6 +5,8 @@ This Docker image sets up a container with
  - Go v1.5
  - [Visual Studio Code](https://code.visualstudio.com/) with a Golang [Extension] (https://marketplace.visualstudio.com/items/lukehoban.Go) that allows autocomplete, visual debugging and more.
 
+For screenshots, checkout the [Screenshots](#screenshots) section below
+
 ## Table of Contens
 - [Requirements](#requirements)
   - [Installing Requirements](#installing-requirements)
@@ -14,6 +16,8 @@ This Docker image sets up a container with
   - [Debugging](#debugging-on-mac-os-x)
 - [Linux Instructions](#linux-instructions)
 - [Windows Instructions](#windows-instructions)
+- [Screenshots](#screenshots)
+- [Usage] (#usage)
 - [TODO](#todo)
 
 ## Requirements
@@ -78,6 +82,15 @@ This Docker image sets up a container with
 
 ## Windows Instructions
 - TODO / Someone else contribute
+
+## Screenshots
+### Visual Studio Code
+![Starting Up Visual Studio Code](doc_resources/gdec-starting-vscode.gif)
+
+![Editing Go File In Visual Studio Code](doc_resources/gdec-editing-vscode.gif)
+
+![Debugging in Visual Studio Code](doc_resources/gdec-debugging-vscode.gif)
+- Note: The screen capture tool is unable to show the breakpoints being set. But they are
 
 ## Usage
 ### Using Visual Studio Code
