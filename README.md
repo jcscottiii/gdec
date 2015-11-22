@@ -1,6 +1,8 @@
 # GDEC
 ## GDEC [gee-dec] aka Golang Development Environment Container
 
+[![Docker Hub Badge](https://img.shields.io/badge/Docker-Hub%20Hosted-blue.svg)](https://hub.docker.com/r/jcscottiii/gdec/)
+
 This Docker image sets up a container with
  - Go v1.5
  - [Visual Studio Code](https://code.visualstudio.com/) with a Golang [Extension] (https://marketplace.visualstudio.com/items/lukehoban.Go) that allows autocomplete, visual debugging and more.
