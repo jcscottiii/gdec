@@ -6,6 +6,7 @@
 This Docker image sets up a container with
  - Go v1.5
  - [Visual Studio Code](https://code.visualstudio.com/) with a Golang [Extension] (https://marketplace.visualstudio.com/items/lukehoban.Go) that allows autocomplete, visual debugging and more.
+ - A nice user named `gopher`.
 
 For screenshots, checkout the [Screenshots](#screenshots) section below
 
@@ -63,7 +64,7 @@ For screenshots, checkout the [Screenshots](#screenshots) section below
     export VBOX_IP=<that inet ip address>
     docker run -e DISPLAY=$VBOX_IP:0 -t -i jcscottiii/gdec /bin/bash
     # Eventually you should be in the container
-    code . # Starts the Visual Studio Code IDE
+    code . & # Starts the Visual Studio Code IDE
     ```
 
 ### Debugging on Mac OS X

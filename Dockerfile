@@ -6,7 +6,8 @@ ENV USERNAME gopher
 ENV HOME /home/$USERNAME
 RUN groupadd -r $USERNAME -g 757 && \
      useradd -u 757 --create-home --home-dir $HOME $USERNAME -g $USERNAME && \
-     chown -R $USERNAME:$USERNAME $HOME
+     chown -R $USERNAME:$USERNAME $HOME && \
+     echo "$USERNAME:$USERNAME" | chpasswd && adduser $USERNAME sudo # Give user ability to use sudo
 
 # Update all the package references available for download
 RUN apt-get update
