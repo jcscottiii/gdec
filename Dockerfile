@@ -80,7 +80,7 @@ RUN git clone https://github.com/Microsoft/vscode-go $HOME/.vscode/extensions/lu
 
 # Preserve the PATH because when we run `su $USERNAME`, PATH would have been reset.
 # Part of workaround discussed in entry.sh
-RUN echo "export PATH=$PATH" >> $HOME/.bashrc
+RUN echo "export PATH=$PATH:$GOPATH/bin" >> $HOME/.bashrc
 
 # Add settings.json file that contains settings for the go extension
 RUN mkdir -p $HOME/.config/Code/User/
