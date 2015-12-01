@@ -30,7 +30,7 @@ For screenshots, checkout the [Screenshots](#screenshots) section below
  - Docker
    - Mac OS X [Instructions](http://docs.docker.com/mac/step_one/)
    - Linux [Instructions](http://docs.docker.com/linux/step_one/)
-   - Windwos [Instructions](http://docs.docker.com/windows/step_one/)
+   - Windows [Instructions](http://docs.docker.com/windows/step_one/)
 
 ## Mac OS X Instructions
 ### Additional Requirements For Mac OS X
