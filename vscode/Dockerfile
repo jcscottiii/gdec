@@ -29,7 +29,7 @@ RUN apt-get install -y \
 USER $USERNAME
 
 # Install VSCode
-RUN wget -O $HOME/VSCode.zip 'https://az764295.vo.msecnd.net/public/0.10.1-release/VSCode-linux64.zip'
+RUN wget -O $HOME/VSCode.zip 'https://az764295.vo.msecnd.net/public/0.10.3/VSCode-linux64.zip'
 RUN unzip $HOME/VSCode.zip -d $HOME/vscode/
 RUN ln -s $HOME/vscode/VSCode-linux-x64/Code $HOME/bin/code
 # Install vsce, the Visual Studio Extension Manager
