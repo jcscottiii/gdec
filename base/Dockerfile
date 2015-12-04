@@ -17,12 +17,16 @@ ENV DEBIAN_FRONTEND noninteractive
 
 # Install tools
 RUN apt-get install -y \
-    curl \
-    git \
-    make \
-    npm \
-    zip \
-    wget
+    python-software-properties=0.92.37.6 \
+    software-properties-common=0.92.37.6
+RUN add-apt-repository ppa:ubuntu-toolchain-r/test && apt-get update
+RUN apt-get install -y \
+    gcc-4.9=4.9.3-8ubuntu2~14.04 \
+    git=1:1.9.1-1ubuntu0.1 \
+    make=3.81-8.2ubuntu3 \
+    wget=1.15-1ubuntu1.14.04.1
+
+RUN ln -s /usr/bin/gcc-4.9 /usr/bin/gcc
 
 RUN apt-get clean
 
