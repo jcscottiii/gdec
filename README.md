@@ -112,7 +112,6 @@ When you run `code .`, it will start up the IDE at $GOPATH. You will begin to pu
 - Install other Go IDEs / editors
 - Install other Go Tools
 - Get instructions for other operating systems
-- Get a better link for the VSCode.zip package
 - Talk about exposing ports to demo debugging web services in the container.
 
 ## Motivation

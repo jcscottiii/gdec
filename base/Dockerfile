@@ -58,6 +58,9 @@ RUN cd $GOPATH/src/github.com/derekparker/delve && git checkout v0.9.0-alpha && 
 # Part of workaround discussed in entry.sh
 RUN echo "export PATH=$PATH:$GOPATH/bin" >> $HOME/.bashrc
 
+# Remove all files in the src folder to clean up
+RUN rm -rf $GOPATH/src/*
+
 # Set the workspace
 WORKDIR $GOPATH
 USER root

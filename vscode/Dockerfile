@@ -11,10 +11,10 @@ USER root
 # Make sure to download newer version of node than what is the default in apt-get
 # Install other dependencies
 RUN apt-get install -y \
-    curl
+    curl=7.35.0-1ubuntu2.5
 RUN curl -sL https://deb.nodesource.com/setup_5.x | sudo -E bash -
 RUN apt-get install -y \
-    nodejs \
+    nodejs=5.1.1-1nodesource1~trusty1 \
     zip=3.0-8
 
 # Install libs for GUI
@@ -24,6 +24,8 @@ RUN apt-get install -y \
     libasound2=1.0.27.2-3ubuntu7 \
     libxtst6=2:1.2.2-1 \
     libnss3=2:3.19.2.1-0ubuntu0.14.04.1
+
+RUN apt-get clean
 
 # Change back to non-root user
 USER $USERNAME
