@@ -36,8 +36,9 @@ RUN mkdir $HOME/bin
 ENV PATH $HOME/bin:$PATH
 
 # Go-specific instructions.
-# Install Go 1.5
-RUN wget https://storage.googleapis.com/golang/go1.5.linux-amd64.tar.gz -O $HOME/go.tar.gz
+# Install Go 1.5.2
+# Reference link: https://golang.org/dl/
+RUN wget https://storage.googleapis.com/golang/go1.5.2.linux-amd64.tar.gz -O $HOME/go.tar.gz
 RUN mkdir $HOME/go && tar -C $HOME -xzf $HOME/go.tar.gz && rm $HOME/go.tar.gz
 RUN ln -s $HOME/go/bin/go $HOME/bin/go
 
