@@ -20,6 +20,7 @@ It includes:
 - Run the Docker container per your OS in the instructions [here](../base/gui/README.md#running) where your `GDEC_IMAGE` equals `jcscottiii/intellij-gdec`
 - Once in the container, run this to start the IDE.
   - `idea.sh &`
+- For more tips on using it, refer to [here](https://github.com/go-lang-plugin-org/go-lang-idea-plugin/wiki/Documentation)
 
 ## Screenshots
 TODO
