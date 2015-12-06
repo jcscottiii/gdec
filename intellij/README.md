@@ -1,4 +1,6 @@
-# IntelliJ Code Image
+# IntelliJ Image
+
+## Docker Image: `jcscottiii/intellij-gdec` [![Docker Hub Badge](https://img.shields.io/badge/Docker-Hub%20Hosted-blue.svg)](https://hub.docker.com/r/jcscottiii/intellij-gdec/)
 
 ## Table of Contents
 - [Image Description](#image-description)
@@ -12,7 +14,7 @@ This image setups an IntelliJ Developer Environment. It inherits from the [base-
 ## Image Contents
 It includes:
 - [IntelliJ](https://www.jetbrains.com/idea/)
-- [Go IDEA Plugin for IntelliJ](https://github.com/go-lang-plugin-org/go-lang-idea-plugin)
+- TODO: [Go IDEA Plugin for IntelliJ](https://github.com/go-lang-plugin-org/go-lang-idea-plugin)
 
 ## Running
 - Run the Docker container per your OS in the instructions [here](../base/gui/README.md#running) where your `GDEC_IMAGE` equals `jcscottiii/intellij-gdec`

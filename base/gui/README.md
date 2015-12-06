@@ -1,5 +1,7 @@
 # Base GUI GDEC image
 
+## Docker Image: `jcscottiii/base-gui-gdec` [![Docker Hub Badge](https://img.shields.io/badge/Docker-Hub%20Hosted-blue.svg)](https://hub.docker.com/r/jcscottiii/base-gui-gdec/)
+
 ## Table of Contents
 - [Image Description](#image-description)
 - [Image Contents](#image-contents)

@@ -1,5 +1,7 @@
 # Visual Studio Code Image
 
+## Docker Image: `jcscottiii/vscode-gdec` [![Docker Hub Badge](https://img.shields.io/badge/Docker-Hub%20Hosted-blue.svg)](https://hub.docker.com/r/jcscottiii/vscode-gdec/)
+
 ## Table of Contents
 - [Image Description](#image-description)
 - [Image Contents](#image-contents)
@@ -25,16 +27,16 @@ When you run `code .`, it will start up the IDE at $GOPATH. You will begin to pu
 ## Screenshots
 #### Starting up visual studio code in the container
 
-![Starting Up Visual Studio Code](doc_resources/gdec-starting-vscode.gif)
+![Starting Up Visual Studio Code](../doc_resources/gdec-starting-vscode.gif)
 Follow the running instructions for your OS.
 
 #### Editing Go file in Visual Studio Code
 
-![Editing Go File In Visual Studio Code](doc_resources/gdec-editing-vscode.gif)
+![Editing Go File In Visual Studio Code](../doc_resources/gdec-editing-vscode.gif)
 Creating a hello world app
 
 #### Debugging Go file in Visual Studio Code
 
-![Debugging in Visual Studio Code](doc_resources/gdec-debugging-vscode.gif)
+![Debugging in Visual Studio Code](../doc_resources/gdec-debugging-vscode.gif)
 - Note: The screen capture tool is unable to show the breakpoints being set, but they are. You click to the left of the line numbers.
 

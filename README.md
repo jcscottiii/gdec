@@ -4,7 +4,7 @@
 
 GDEC is a collection of images that sets up a Go Development Environment with a [standard set of tools and features](base/README.md#image-contents). The only difference between each image is the IDE / editor used. They are separated out into different images to prevent a single image from growing too large.
 
-## Table of Contens
+## Table of Contents
 - [Requirements](#requirements)
   - [Installing Requirements](#installing-requirements)
 - [Containers](#containers)
@@ -21,19 +21,19 @@ GDEC is a collection of images that sets up a Go Development Environment with a 
    - Windows [Instructions](http://docs.docker.com/windows/step_one/)
 
 ## Containers
-### GUI-Based Containers
+### GUI-Based Editors Containers
 - [IntelliJ](intellij/)
 - [Visual Studio Code](vscode/)
 
-### Text-Based Containers
+### Text-Based Editors Containers
 - TODO
 
 ## Architecture
-- [base-gdec](base/) is the base image that contains all the tools and Go.
+- [jcscottiii/base-gdec](base/) [![Docker Hub Badge](https://img.shields.io/badge/Docker-Hub%20Hosted-blue.svg)](https://hub.docker.com/r/jcscottiii/base-gdec/) is the base image that contains all the tools and Go.
   - TODO: Once there are text-based editors, they will inherit from `base-gdec`.
-  - [base-gui-gdec](base/gui) inherits from `base-gdec` and then includes all the libraries to render GUI applications
-    - [intellij-gdec](intellij/) inherits from `base-gui-gdec` and then installs IntelliJ and the Go Plugin for it.
-    - [vscode-gdec](vscode/) inherits from `base-gui-gdec` and then installs Visual Studio Code and the Go Plugin for it.
+  - [jcscottiii/base-gui-gdec](base/gui) [![Docker Hub Badge](https://img.shields.io/badge/Docker-Hub%20Hosted-blue.svg)](https://hub.docker.com/r/jcscottiii/base-gui-gdec/) inherits from `base-gdec` and then includes all the libraries to render GUI applications
+    - [jcscottiii/intellij-gdec](intellij/) [![Docker Hub Badge](https://img.shields.io/badge/Docker-Hub%20Hosted-blue.svg)](https://hub.docker.com/r/jcscottiii/intellij-gdec/) inherits from `base-gui-gdec` and then installs IntelliJ and the Go Plugin for it.
+    - [jcscottiii/vscode-gdec](vscode/) [![Docker Hub Badge](https://img.shields.io/badge/Docker-Hub%20Hosted-blue.svg)](https://hub.docker.com/r/jcscottiii/vscode-gdec/) inherits from `base-gui-gdec` and then installs Visual Studio Code and the Go Plugin for it.
 
 
 ## TODO
