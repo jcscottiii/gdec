@@ -31,5 +31,12 @@ RUN npm install -g vsce
 # Install the vscode-go extension
 RUN git clone https://github.com/Microsoft/vscode-go $HOME/.vscode/extensions/lukehoban.Go && cd $HOME/.vscode/extensions/lukehoban.Go && git checkout tags/0.6.17 && npm install && vsce package
 
+# Add settings.json file that contains settings for the go extension
+RUN mkdir -p $HOME/.config/Code/User/
+ADD settings.json $HOME/.config/Code/User/settings.json
+
 # Move back to root for the su in entry.sh
 USER root
+
+# chown the settings.json file to the non-root user
+RUN chown -R $USERNAME:$USERNAME $HOME/.config/Code/User/settings.json
